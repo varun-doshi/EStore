@@ -68,8 +68,9 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: #181818;
+  font-weight: bold;
+  font-size: 32px;
 }
 .cart-icon {
   font-size: 25px;
@@ -296,6 +297,11 @@ span.text-red {
   font-size: 30px;
   display: flex;
   gap: 10px;
+  cursor: pointer;
+}
+.icons div:hover {
+  color: #009fbd;
+  transform: scale(1.2);
 }
 .cart-heading {
   display: flex;
